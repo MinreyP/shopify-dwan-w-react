@@ -1,0 +1,66 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1677123236c06df3b0": {
+      "type": "apps",
+      "blocks": {
+        "8e728461-6952-469d-8f5f-b9ab8a906f01": {
+          "type": "shopify:\/\/apps\/hulk-form-builder\/blocks\/form-block\/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+          "settings": {
+            "form_uuid": "ZuUFM8pAx-5MK4SpKmRDRg",
+            "form_settings": true,
+            "font_color": "#000000",
+            "size": 14,
+            "input_background_color": "#ffffff",
+            "input_background_color_focus": "#f4dada",
+            "input_border_radius": 1,
+            "input_border_color": "#ebe9e9",
+            "input_border_color_focus": "#2d2727",
+            "input_font_color": "#3d3131",
+            "input_size": 14,
+            "border_color": "#121212",
+            "border_radius": 2,
+            "border": 1,
+            "fill_color": "#ebe9e9",
+            "padding": 35,
+            "form_width": 600,
+            "btn_text": "Submit",
+            "sub_btn_txt_color": "#f3f3f3",
+            "sub_btn_bg_color": "#3f3333",
+            "sub_btn_font_size": 14,
+            "sub_btn_bdr_color": "#ffffff",
+            "sub_btn_bdr_rad": 3,
+            "sub_btn_bdr_width": 1,
+            "fonts": "Times New Roman"
+          }
+        }
+      },
+      "block_order": [
+        "8e728461-6952-469d-8f5f-b9ab8a906f01"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "a3ea4dc7-2379-4ac1-83c3-3b924abf44e5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"ZuUFM8pAx-5MK4SpKmRDRg\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1677123236c06df3b0",
+    "a3ea4dc7-2379-4ac1-83c3-3b924abf44e5"
+  ]
+}

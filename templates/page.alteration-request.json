@@ -1,0 +1,49 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1677123236c06df3b0": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "a3ea4dc7-2379-4ac1-83c3-3b924abf44e5": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div style=\"margin:0 auto;\" class=\"pxFormGenerator\" id=\"ZuUFM8pAx-5MK4SpKmRDRg\"><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "acerill_custom_forms": {
+      "type": "apps",
+      "blocks": {
+        "acerill_custom_forms_block": {
+          "type": "shopify:\/\/apps\/acerill-form-builder\/blocks\/custom-form\/830f910d-3579-44cb-9d18-92197bb5bd98",
+          "settings": {
+            "formId": "ead6d82a-8036-462e-ad0a-e0dbb3b21f38",
+            "behavior": "standard"
+          }
+        }
+      },
+      "block_order": [
+        "acerill_custom_forms_block"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1677123236c06df3b0",
+    "a3ea4dc7-2379-4ac1-83c3-3b924abf44e5",
+    "acerill_custom_forms"
+  ]
+}
