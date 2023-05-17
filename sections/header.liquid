@@ -610,7 +610,7 @@
           if cart == empty
             render 'icon-cart-empty'
           else
-            render 'icon-cart'
+            render 'react-cart-tool-tip'
           endif
         -%}
         <span class="visually-hidden">{{ 'templates.cart.cart' | t }}</span>
@@ -762,6 +762,8 @@
     }
   </script>
 {%- endif -%}
+
+<script defer src="{{ "cart-tool-tip.bundle.js" | asset_url }}"></script>
 
 {% schema %}
 {
